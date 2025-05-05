@@ -18,7 +18,7 @@ const limiter = rateLimiter({
   server.use(limiter); // add it as a middlewware function
 
 server.use(cors({
-    origin: 'http://localhost:5173', // Or whatever your frontend URL is
+    origin: 'https://phoenix-iota-seven.vercel.app/', // Or whatever your frontend URL is
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
     allowedHeaders: ['Content-Type', 'Authorization']
   }));
