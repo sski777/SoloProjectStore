@@ -15,7 +15,7 @@ const products = [
 ];
 
 const ITEMS_PER_PAGE = 8;
-const ROOTURL = 'https://phoenix-iota-seven.vercel.app/'
+const ROOTURL = 'https://soloprojectstore.onrender.com'
 const StorePage = () => {
   const navigate = useNavigate()
   const [page, setPage] = useState(1);

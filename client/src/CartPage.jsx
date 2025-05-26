@@ -1,7 +1,7 @@
 import React, { useEffect, useReducer, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useAuth0 } from '@auth0/auth0-react';
-const ROOTURL = 'https://phoenix-iota-seven.vercel.app/'
+const ROOTURL = 'https://soloprojectstore.onrender.com'
 const CartPage = () => {
   const [cartItems, setCartItems] = useState([]);
   const { isAuthenticated, getAccessTokenSilently, user } = useAuth0();
