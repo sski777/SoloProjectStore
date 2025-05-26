@@ -15,7 +15,7 @@ const products = [
 ];
 
 const ITEMS_PER_PAGE = 8;
-const ROOTURL = 'http://localhost:8080'
+const ROOTURL = 'phoenix-iota-seven.vercel.app'
 const StorePage = () => {
   const navigate = useNavigate()
   const [page, setPage] = useState(1);
